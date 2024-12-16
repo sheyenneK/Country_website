@@ -1,0 +1,69 @@
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  color:blue;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+}
+nav a:hover{
+  background-color: blue;
+  color:white;
+  transition:2s;
+}
+#banner{
+
+  align-items: center;  
+  background-image: url(images/desert_image.jpg);
+  color:white;
+  padding:20px;
+  font-family:symbolic;
+}
+#body{
+  padding:50px;
+}
+#links{
+  padding:50px;
+}
+#links *{
+  border: 1px solid black;
+  margin:5px;
+}
+
+#footer{
+  color:white;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+}
+ #banner img{
+	height: 400px;
+	width: 400px;
+ }
+img{
+	filter: blur(20px);
+}
+img:hover{
+	filter: blur(0px);
+	transition: 1s;
+}
+.b{
+	font-size: 20px;
+}
+.c{
+	color: darkblue;
+}
+
+ 
